@@ -1,18 +1,24 @@
 #include <iostream>
 
-using namespace std; 
+using namespace std;
 
 int main(void){
-    int a, b, soma;
+    string nome;
+    string sobrenome;
+    string idade;
 
-    cout << "Qual o primeiro número?";
-    cin >> a;
+    cout << "Qual seu nome?";
+    cin >> nome;
 
-    cout << "Qual o segundo número?";
-    cin >> b;
+    cout << "Qual seu sobrenome?";
+    cin >> sobrenome;
 
-    soma = a + b;
+    cout << "Olá, " << nome << sobrenome << endl;
 
-    cout << "A soma é " << soma << endl; 
+    cout << "Quantos anos você tem?";
+    cin >> idade;
+
+    cout << "Entendi, " << nome << ", Você tem " << idade << " anos!"<< endl;
+
     return 0;
 }
