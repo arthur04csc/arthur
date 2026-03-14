@@ -7,15 +7,15 @@ int main(void){
     string sobrenome;
     string idade;
 
-    cout << "Qual seu nome?";
+    cout << "Qual seu nome? ";
     cin >> nome;
 
-    cout << "Qual seu sobrenome?";
+    cout << "Qual seu sobrenome? ";
     cin >> sobrenome;
 
-    cout << "Olá, " << nome << sobrenome << endl;
+    cout << "Olá, " << nome << " " << sobrenome << endl;
 
-    cout << "Quantos anos você tem?";
+    cout << "Quantos anos você tem? ";
     cin >> idade;
 
     cout << "Entendi, " << nome << ", Você tem " << idade << " anos!"<< endl;
