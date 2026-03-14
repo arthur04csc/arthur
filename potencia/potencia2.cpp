@@ -5,20 +5,14 @@ using namespace std;
 int main(void){
     int base = 2;
     long long res = 1;
-    char r;
+    char r = 'y';
 
-    while(true){
-        cout << "res = " << res << "\n";
-        cout << "Você quer multiplicar res por 2? Responda com Y para sim. ";
+    while(r == 'y' || r == 'Y'){
+        res *= base;
+
+        cout << res << "\n";
         cin >> r;
-
-        if(r != 'Y' && r !='y'){
-            break;
-        }
-
-        res = res * base;
-
-
-    }
+    } 
+     
     return 0;
 }
