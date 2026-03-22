@@ -1,4 +1,4 @@
-#include <iostream> // não terminei ainda
+#include <iostream> 
 
 using namespace std;
 
@@ -12,11 +12,15 @@ int main(void){
     cout << "Quantas figurinhas tem no álbum?" << "\n";
     cin >> n;
 
-    cout << "Quais as figuri"
+    cout << "Quantas figurinhas você já comprou e não são repetidas? " << "\n";
+    cin >> m;
 
-    cout << "Então falta " << 10 - m << " figurinhas para você." << "\n";
+    if(m > n){
+        cout << "Isso é impossível." << "\n";
+        return 0;
+    }
+
+    cout << "Então falta " << n - m << " figurinhas para você." << "\n";
     
-    cout << "Quais as figurinhas que você tem? "
-    cin >> 
-    
+    return 0;
 }
